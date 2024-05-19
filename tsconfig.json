@@ -9,7 +9,9 @@
     "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
     "paths": {
       "@/*": ["./app/javascript/*"],
-      "@test/*": ["./spec/javascript/*"]
+      "@test/*": ["./spec/javascript/*"],
+      "$lib": ["./app/javascript/lib"],
+      "$lib/*": ["./app/javascript/lib/*"]
     }
   },
   "include": [ "app/javascript/**/*", "spec/javascript/**/*" ],

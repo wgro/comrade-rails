@@ -23,6 +23,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./app/javascript', import.meta.url)),
+      '$lib': fileURLToPath(new URL('./app/javascript/lib', import.meta.url)),
     },
   },
   server: {

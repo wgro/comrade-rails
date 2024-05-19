@@ -5,6 +5,7 @@
 
 <script lang="ts">
   import PageTitle from '@/components/PageTitle.svelte';
+  import { Button } from "$lib/components/ui/button";
 
   export let services;
 </script>
@@ -19,3 +20,4 @@
   {/each}
   {/if}
 </ul>
+<Button>Click me</Button>

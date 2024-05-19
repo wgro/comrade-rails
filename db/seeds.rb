@@ -7,3 +7,14 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+require 'csv'
+
+csv_file_path = Rails.root.join('db', 'seed_data', "languages.csv")
+
+CSV.foreach(csv_file_path, headers: true) do |row|
+  Language.create(
+    name: row['name'],
+    iso_2: row['iso_2'],
+    iso_3: row['iso_3']
+  )
+end
