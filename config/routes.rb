@@ -35,6 +35,7 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  get 'home/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
@@ -49,10 +50,10 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :clicks, only: %i[index create], path: '/'
   resource :about, controller: 'about', only: %i[show]
+  resources :services, controller: 'services'
 
   get '/manifest.v1.webmanifest', to: 'statics#manifest', as: :webmanifest
 
-  root to: 'clicks#index'
+  root to: 'home#index'
 end

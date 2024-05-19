@@ -34,7 +34,7 @@
 </script>
 
 <div class="lg:mr-64">
-  <PageTitle>Hello, Templatus!</PageTitle>
+  <PageTitle>Hello, Wojika!</PageTitle>
 
   <p class="mt-6 max-w-4xl text-base lg:text-xl">
     Templatus is an opinionated template for web applications with
