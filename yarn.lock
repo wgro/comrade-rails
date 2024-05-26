@@ -1642,16 +1642,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bits-ui@npm:^0.21.8":
-  version: 0.21.8
-  resolution: "bits-ui@npm:0.21.8"
+"bits-ui@npm:^0.21.10":
+  version: 0.21.10
+  resolution: "bits-ui@npm:0.21.10"
   dependencies:
     "@internationalized/date": "npm:^3.5.1"
     "@melt-ui/svelte": "npm:0.76.2"
     nanoid: "npm:^5.0.5"
   peerDependencies:
     svelte: ^4.0.0 || ^5.0.0-next.118
-  checksum: 10c0/10082a6b67b1a72253b2dd5b6b82351491393a7c5cf421b0c4166ff9bc143d626e5582d1e6c51b4d9c3c458eb996926e23ad85866c583988502206315072eee1
+  checksum: 10c0/a393e2e39d2696edb0b7ddf45880ab4161aecb8a41122692f4bfff92f8dd020f5956023ea74ee4792f182e2b0e7698c6eb972f5d8e97285588c209c605b39689
   languageName: node
   linkType: hard
 
@@ -6146,7 +6146,7 @@ __metadata:
     "@vitest/coverage-v8": "npm:^1.6.0"
     acorn: "npm:^8.11.3"
     autoprefixer: "npm:^10.4.19"
-    bits-ui: "npm:^0.21.8"
+    bits-ui: "npm:^0.21.10"
     clsx: "npm:^2.1.1"
     cypress: "npm:^13.9.0"
     eslint: "npm:^8.57.0"
